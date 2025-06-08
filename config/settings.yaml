@@ -1,0 +1,22 @@
+# config/settings.yaml
+
+# Embedding model to use for vector store
+embedding_model: all-MiniLM-L6-v2
+
+# NLI model for contradiction detection
+nli_model: roberta-large-mnli
+
+# QA model for final answer generation
+qa_model: distilbert-base-uncased-distilled-squad
+
+# FAISS configuration
+vector_dimensions: 384
+
+# Conflict detection settings
+conflict_threshold: 0.8
+
+# Retrieval settings
+top_k_retrieval: 3
+
+# Logging level
+logging_level: INFO

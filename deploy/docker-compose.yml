@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  rag-app:
+    build: .
+    container_name: rag_conflict_detector
+    ports:
+      - "5055:5055"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

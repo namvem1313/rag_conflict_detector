@@ -1,0 +1,16 @@
+{
+  "documents": [
+    {
+      "doc_id": "doc_2021",
+      "text": "Formula A = x + y"
+    },
+    {
+      "doc_id": "doc_2022",
+      "text": "Formula B = x * y"
+    },
+    {
+      "doc_id": "doc_2023",
+      "text": "Formula A = x - y"
+    }
+  ]
+}

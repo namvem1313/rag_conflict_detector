@@ -19,7 +19,7 @@ A Retrieval-Augmented Generation (RAG) system that intelligently ingests documen
 ## Installation
 
 ```bash
-git clone https://github.com/namratha/rag-conflict-detector.git
+git clone https://github.com/namvem1313/rag-conflict-detector.git
 cd rag-conflict-detector
 
 python -m venv rag_env
@@ -152,3 +152,14 @@ Update:
 ## License
 
 MIT License.
+Copyright (c) 2025 Lakshmi Namratha Vempaty
+
+This project uses the following open-source libraries and models:
+
+- `sentence-transformers (MiniLM)` – Apache 2.0
+- `transformers` – Apache 2.0
+- `roberta-large-mnli` – MIT
+- `distilbert-base-uncased-distilled-squad` – Apache 2.0
+- `FAISS` – MIT
+- `Flask` – BSD-3
+- `Streamlit` – Apache 2.0
